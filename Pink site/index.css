@@ -55,6 +55,7 @@ html{
     background-color:white;
     color: #0F0C11;
 }
+button{cursor: pointer;}
 header .burger{
     display :none;
     height: 20px;
@@ -62,15 +63,11 @@ header .burger{
 }
 .mobile{
     right: 0px;
+    left: 0;
     top: 55px;
     bottom:-10000%;
     position:absolute;
-    min-height: 100;
-    /* background-color:#0F0C11; */
-    opacity: 0.9;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 50px;
+    min-height: 100vh;
     display: none;
     z-index: 999999;
 }
@@ -91,14 +88,18 @@ header .burger{
 .mobile-active{
     display: block;
     top: 74px;
-    right: 0;
-    /* width: 400px; */
     width: 100%;
     color: none;
 }
 .new-active{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
     width: 400px;
+    margin-left: auto;
     background-color:#0F0C11; 
+    opacity: 0.9;
+    height: 100%;
 }
 .mobile a{
     color: white;

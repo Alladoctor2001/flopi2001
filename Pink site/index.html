@@ -39,31 +39,32 @@
                             </ul>
                         </nav>
                 </div>
-                <button class="burger" onclick="menuSwitch()" >
+                <button class="burger" data-modal-btn="Mobile-menu" onclick="menuSwitch()" >
                     <span></span>
                 </button>
                 <nav class="mobile"  id="Mobile-menu" >
                     <div class="new-active">
-                    <ul >
-                        <li>
-                            <a href="#info">Information</a>
-                        </li>
-                        <li>
-                            <a href="#toke">Tokenomics</a>
-                        </li>
-                        <li>
-                            <a href="#map">Roadmap</a>
-                        </li>
-                        <li>
-                            <a href="#team">Team</a>
-                        </li>
-                        <li>
-                            <a href="#partners">Partners</a>
-                        </li>
-                        <li>
-                            <a  href="https://flopitoken.gitbook.io/flopi-whitepaper/introduction-and-overview-of-the-dating-market/overview-of-the-dating-market">Whitepaper</a>
-                        </li>
-                    </ul>
+                        <ul >
+                            <li>
+                                <a href="#info">Information</a>
+                            </li>
+                            <li>
+                                <a href="#toke">Tokenomics</a>
+                            </li>
+                            <li>
+                                <a href="#map">Roadmap</a>
+                            </li>
+                            <li>
+                                <a href="#team">Team</a>
+                            </li>
+                            <li>
+                                <a href="#partners">Partners</a>
+                            </li>
+                            <li>
+                                <a  href="https://flopitoken.gitbook.io/flopi-whitepaper/introduction-and-overview-of-the-dating-market/overview-of-the-dating-market">Whitepaper</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
             </header>
@@ -596,20 +597,43 @@
         </footer>
     </div>
         <script>
-             const btn = document.querySelector('.burger');
-        btn.addEventListener('click', function () {
-            this.classList.toggle('active');
+         const modalBtn = document.querySelectorAll('[data-modal-btn]');
+
+        modalBtn.forEach(function (item) {
+            item.addEventListener('click', function () {
+                    const modalWindow = document.querySelector('#' + this.dataset.modalBtn)
+                    modalWindow.classList.toggle('mobile-active');
+                    item.classList.toggle('active');
+
+                    // clicked fade
+                    modalWindow.addEventListener('click', function () {
+                        this.classList.remove('mobile-active')
+                        modalBtn.forEach((item) => {
+                            item.classList.remove('active');
+                        })
+                    })
+
+                    modalWindow.querySelector('.new-active').addEventListener('click', function (e) {
+                        e.stopPropagation();
+                    })
+                    
+            })
         })
 
-        function menuSwitch() {
+        //      const btn = document.querySelector('.burger');
+        // btn.addEventListener('click', function () {
+        //     this.classList.toggle('active');
+        // })
+
+        // function menuSwitch() {
         
-        var buter = document.getElementById("Mobile-menu");
-        if (buter.className === "mobile") {
-        buter.className = "mobile mobile-active";
-        } else {
-        buter.className = "mobile";
-        }
-        }
+        // var buter = document.getElementById("Mobile-menu");
+        // if (buter.className === "mobile") {
+        // buter.className = "mobile mobile-active";
+        // } else {
+        // buter.className = "mobile";
+        // }
+        // }
         </script>
         <script>
             const header = document.querySelector("header");
