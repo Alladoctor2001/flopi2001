@@ -1,0 +1,665 @@
+
+@media(min-width:1300px){
+
+   .sec1-container h1{
+    font-size: 100px;
+    max-width: 480px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.sec1-container {
+    padding-top: 100px;
+}
+
+ 
+}
+@media(max-width:1300px){
+
+    .gifts{
+        font-size: 100px;
+    }
+    .car{
+        max-width: 500px;
+    }
+    .sec3-pink{
+        width: 500px;
+    }
+    .left-bottom{
+        max-width: 500px;
+    }
+    .sec1-container h1{
+        max-width: 560px;
+        padding: 5px;
+        border-radius: 10px;
+
+    }
+}
+@media(max-width:1250px){
+
+    .sec1-container h1{
+        font-size: 100px;
+        max-width: 480px;
+    }
+    .sec1-container{
+        padding-top: 150px;
+    }
+    .digital , .avatar{
+        font-size: 100px;
+    }
+    .sec4-flexbox1 img , .sec4-flexbox2 img , .sec4-flexbox3 img,  .sec4-flexbox4 img ,  .sec4-flexbox5 img  , .sec4-flexbox6 img {
+        max-width: 420px;
+    }
+}
+@media(max-width:1200px){
+    .sec4-flexbox1 img , .sec4-flexbox2 img , .sec4-flexbox3 img,  .sec4-flexbox4 img ,  .sec4-flexbox5 img  , .sec4-flexbox6 img {
+        max-width: 400px;
+    }
+    .section-4 p ,    #hide , #hide-2 , #hide-3 , #scritta{
+        font-size: 22px;
+        max-width: 480px;
+    }
+    .section-4 h1{
+        font-size: 80px;
+    }
+    .gifts{
+        font-size: 80px;
+    }
+    .car{
+        max-width: 400px;
+    }
+    .sec5-h1{
+        font-size: 40px;
+    }
+    .date{
+        font-size: 30px;
+    }
+    .img-footer{
+        width: 40%;
+    }
+}
+@media(max-width:1100px){
+
+    .sec4-flexbox1 img , .sec4-flexbox2 img , .sec4-flexbox3 img,  .sec4-flexbox4 img ,  .sec4-flexbox5 img  , .sec4-flexbox6 img {
+        max-width: 360px;
+    }
+    .section-4 p ,#hide , #hide-2 , #hide-3 , #scritta{
+        font-size: 20px;
+        max-width: 420px;
+    }
+    #p1 , #p2 , #p3 , #p4 ,#p5 , #p6, #p7 , #p8{
+        font-size: 20px;
+    }
+    .section-4 h1{
+        font-size: 70px;
+    }
+    .unique{
+        font-size: 18px;
+    }
+    .sec3-pink{
+        width: 400px;
+        margin-top: 1000px;
+    }
+    .gifts{
+        font-size: 60px;
+        margin-top: 500px;
+    }
+    .car{
+        max-width: 350px;
+        margin-top: 1000px;
+    }
+
+    .left-bottom{
+        max-width: 500px;
+        margin-top: 420px;
+    }
+    .sec1-container h1{
+        font-size: 70px;
+        max-width: 350px;
+    }
+    .sec1-container{
+        padding-top: 150px;
+    }
+    .digital , .avatar{
+        font-size: 70px;
+    }
+    
+    .sec1-bottom p{
+        font-size: 20px;
+    }
+    .btn-style-1{
+        margin-right: 80px;
+    }
+    .sec5-h1{
+        font-size: 40px;
+    }
+    .date{
+        font-size: 25px;
+    }
+    .grid-section{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-div{
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .flex-div{
+        max-width: unset;
+        justify-content: space-around;
+    }
+    .partners-flex img{
+        max-width: 150px;
+    }
+
+
+}
+@media(max-width:1000px){
+    .sec1-container{
+        padding-top: 80px;
+    }
+    .sec4-flexbox3 img{
+        margin-top: 60px;
+    }
+    .section-4 h1{
+        font-size: 50px;
+    }
+    .unique{
+        font-size: 15px;
+        max-width: 320px;
+    }
+    .sec3-pink{
+        width: 350px;
+    }
+    .gifts{
+        font-size: 40px;
+    }
+    .car{
+        max-width: 300px;
+    }
+    .header-right li a{
+        font-size: 14px;
+    }
+    .sec1-container h1{
+        margin-bottom: 30px;
+        font-size: 80px;
+        max-width: 400px;
+    }
+    .sec1-container{
+        padding-top: 140px;
+    }
+    .btn-style-1{
+        padding: 20px 40px; 
+        font-size: 26px;
+    }
+    .sec1-bottom p{
+        font-size: 16px;
+    }
+    .up h2{
+        font-size: 25px;
+    }
+    .down{
+        font-size: 18px;
+    }
+    .card-style{
+        padding: 20px 20px;
+    }
+    .inner{
+        padding-right:50px ;
+        padding-left: 50px;
+    }
+    .sec5-h1{
+        font-size: 26px;
+    }
+    .date{
+        font-size: 20px;
+    }
+    
+}
+@media(max-width:900px){ 
+    .ai{
+        font-size: 40px;
+    }
+    .sec4-flexbox1 img , .sec4-flexbox2 img , .sec4-flexbox3 img,  .sec4-flexbox4 img ,  .sec4-flexbox5 img  , .sec4-flexbox6 img {
+        max-width: 320px;   
+    }
+    .section-4 p ,#hide , #hide-2 , #hide-3 , #scritta{
+        font-size: 20px;
+        max-width: 380px;
+    }
+    #p1 , #p2 , #p3 , #p4 ,#p5 , #p6, #p7 , #p8{
+        font-size: 20px;
+    }
+    .section-4 h1{
+        font-size: 50px;
+    }
+    .sec1-container h1{
+        font-size: 60px;
+        max-width: 320px;
+        /* padding-top: 120px; */
+    }
+    .header-right{
+        display: none;
+    }
+    header .burger{
+        display: block;
+        outline: none;
+        border: none;
+    }
+    header .burger span{
+        height: 2px;
+        width: 27px;
+        background-color:white ;
+        display: block;
+        position: relative;
+        border-radius: 1px;
+         
+        }
+    header .burger.active span{
+        background-color:#0F0C11;
+    }
+   
+    header .burger span::before{
+        content: '';
+        height: 2px;
+        width: 27px;
+        background-color:white ;
+        display: block;
+        position: absolute;
+        top: 8px;
+        left: 0px;
+        border-radius: 1px;
+        transition: transform 300ms;
+
+    }
+
+    header .burger span::after{
+        content: '';
+        height: 2px;
+        width: 27px;
+        background-color:white ;
+        display: block;
+        position: absolute;
+        bottom: 8px;
+        left: 0px;
+        border-radius: 1px;
+        transition: transform 300ms;
+    }
+    header .burger.active span::before{
+        transform: rotate(-45deg) translate(7px,-5px);  
+        background-color:white ;
+    }
+    header .burger.active span::after{
+        transform: rotate(45deg) translate(6px, 4px);
+        background-color:white ; 
+    }
+    .inner{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .up h2{
+        font-size: 20px;
+    }
+    .down{
+        font-size: 16px;
+    }
+    .card-style{
+        max-width: 320px;
+    }
+    .ellipse-2{
+        display: none;
+    }
+    .sec5-flexbox{
+        flex-direction: column;
+    }
+    .sec5-h1{
+        margin-bottom: 20px;
+    }
+    .shtuka{
+        display: none;
+    }
+}
+@media(max-width:800px){
+    .sec4-flexbox6 p{
+        margin-top: 10px;
+    }
+    .sec4-flexbox1 , .sec4-flexbox2, .sec4-flexbox3 , .sec4-flexbox4 , .sec4-flexbox5 , .sec4-flexbox6 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sec4-flexbox1{
+        margin-bottom: 40px;
+    }
+    .section-4 p ,    #hide , #hide-2 , #hide-3 , #scritta{
+        margin-bottom: 40px;
+    }
+    .sec4-flexbox1 img , .sec4-flexbox2 img , .sec4-flexbox3 img,  .sec4-flexbox4 img ,  .sec4-flexbox5 img  , .sec4-flexbox6 img {
+       margin-top: unset;
+    }
+    .sec4-flexbox2 img{
+        order:2 ;
+        margin-top: 50px;
+    }
+    .sec4-flexbox3 img{
+        margin-top: 50px;
+    }
+    .sec4-flexbox4 img{
+       order: 2;
+       margin-top: 50px;
+    }
+    .sec4-flexbox5 img{
+        margin-top: 50px;
+     }
+     .sec4-flexbox6 img{
+        order: 2;
+        margin-top: 50px;
+     }
+    .stars{
+        width: none;
+        display: none;
+    }
+    .sec3-pink{
+        display: none;
+    }
+    .gifts span{
+       margin-right: unset;
+       position: unset;
+    }
+    .gifts{
+        font-size: 60px;
+    }
+    .unique{
+        position: unset;
+        margin: unset;
+        font-size: 20px;
+        width: 100%;
+        max-width: 700px;
+    }
+    .gifts{
+        padding-bottom: -200px;
+    }
+    .car{
+        margin-top: 700px;
+        margin-left: 200px;
+    }
+    .btn-style-1{
+        padding: 15px 30px;
+        height: 60px;
+        font-size: 20px;
+        margin-right: 60px;
+    }
+    .sec1-container h1{
+        font-size: 50px;
+        max-width: 270px;
+        margin-bottom: 0px;
+    }
+    .sec1-container{
+        padding-top: 120px;
+    }
+    .card-style{
+        max-width: 280px;
+    }
+    .philosopher{
+        max-width: 500px;
+        margin-left: -350px;
+    }
+    .left-bottom{
+        margin-top: 350px;
+        max-width: 400px;
+    }
+    .partners-flex img{
+        max-width: 173px;
+    }
+    .img-footer{
+        display: none;
+    }
+    .sec1-bottom{
+        margin-top: 20px;
+    }
+}
+@media(max-width:700px){
+    .section4{
+        padding-top: 0px;
+    }
+    #MuteButton{
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    }
+    .ai{
+        font-size: 35px;
+    }
+    .grid-section{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    
+    .section-4 h1{
+        font-size: 40px;
+    }
+    .car{
+        margin-top: 850px;
+        margin-left: 120px;
+    }
+    .sec1-container h1{
+        font-size: 48px;
+        margin-bottom: 20px;
+        max-width: 270px;
+    }
+    .sec1-container{
+        padding-top: 100px;
+    }
+    .card-style{
+        max-width: 240px;
+        border-radius: 20px;
+    }
+    .card-style{
+        padding: 20px 20px;
+    } 
+    .card{
+        flex-direction: column;
+        margin-bottom: 0px;
+        align-items: center ;
+    }
+    .card-style{
+        max-width: 360px;
+    }
+    .card-style{
+        margin-bottom: 30px;
+    }
+    .avatar{
+        display: none;
+    }
+    .digital span{
+        display: block;
+    }
+    .digital{
+        max-width: 500px;
+        margin-bottom: 30px;
+        line-height: 1.1;
+
+    }
+    .sec3-flexbox{
+        flex-direction:column;
+        align-items: right;
+
+    }
+    .philosopher{
+        margin: unset;
+        
+    }
+    .left-bottom{
+        margin-top: unset;
+        margin-bottom: 30px;
+        width: 100%;
+        max-width: 600px;
+    }
+    .flex-div{
+        flex-direction: column;
+    }
+    .flexbox-6{
+        margin-bottom: 100px;
+    }
+    .partners-flex{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+
+    }
+    .partners-flex img{
+        display: block;
+        align-items: center;
+        margin: auto;
+    }
+    footer li a , .copyright, .policy{ 
+        font-size: 18px;
+    }
+    .section-2{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+@media(max-width:600px){
+    .digital, .avatar{
+        font-size:40px ;
+    }
+    .left-bottom{
+        font-size: 16px;
+    }
+    .team{
+        font-size: 35px;
+    }
+    .partners{
+        font-size: 35px;
+    }
+    .ai{
+        font-size: 35px;
+    }
+    .car{
+        margin-top: 700px;
+    }
+    .gifts{
+        font-size: 40px;
+    }
+    .unique{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .sec1-container h1{
+        font-size: 48px;
+        margin-bottom: 20px;
+        max-width: 270px;
+    }
+    .sec1-container{
+        padding-top: 100px;
+    }
+    .sec1-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btn-style-1{
+        order: 2;
+        float: left;
+        margin: unset;
+    }
+     .sec1-bottom p{
+        margin-bottom: 20px;
+    } 
+    .philosopher{
+        max-width: 400px;
+    }
+    .left-bottom{
+        font-size: 20px;
+    }
+    .partners-flex img{
+        max-width: 140px;
+    }
+    footer li a , .copyright, .policy{ 
+        font-size: 16px;
+    }
+    .logo-footer{
+        max-width: 100px;
+    }
+}
+@media(max-width:500px){
+
+    .footer-menu nav ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    footer li{
+        margin-top: 10px;
+    }
+    .sm-flex img{
+        max-width: 100px;
+
+    }
+    .section-4 p ,#hide , #hide-2 , #hide-3 , #scritta{
+        font-size: 18px;
+        max-width: 380px;
+    }
+    #p1 , #p2 , #p3 , #p4 ,#p5 , #p6, #p7 , #p8{
+        font-size: 18px;
+    }
+    .car{
+        margin-top: 750px;
+        margin-left: 50px;
+    }
+    .mobile-active{
+        width: 300px;
+    }
+    .sec1-container h1{
+        font-size: 40px;
+        max-width: 230px;
+       
+    }
+    .btn-style-1{
+        font-size:15px ;
+        padding: 15px 30px;
+        height: 50px;
+    }
+    .date{
+        font-size: 20px;
+    }
+    .partners-flex{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    .partners-flex img{
+        max-width: 173px;
+    }
+    .ai{
+        font-size: 30px;
+    }
+}
+@media(max-width:400px){
+    .sec1-container {
+        padding-top: 100px;
+    }
+    .footer-menu nav ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .sm-flex img{
+        max-width: 80px;
+    }
+    .sec4-flexbox1 img , .sec4-flexbox2 img , .sec4-flexbox3 img,  .sec4-flexbox4 img ,  .sec4-flexbox5 img  , .sec4-flexbox6 img {
+        max-width: 300px;
+     }
+    .car{
+        margin-top: 750px;
+        margin-left: 5px;
+        width: 250px;
+    }
+    .unique{
+        font-size: 16px;
+    }
+    .date{
+        font-size: 18px;
+    }
+}
